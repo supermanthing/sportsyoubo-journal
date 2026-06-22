@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+    <title>友博体育 · 运动生活指南</title>
+    <style>
+        /* === reset & base === */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #fafaf8;
+            color: #1e1e1c;
+            line-height: 1.75;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: #2b5f4a;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #1a3d30;
+        }
+
+        /* === layout === */
+        .page-wrap {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 3rem 2rem 4rem;
+        }
+
+        /* === hero === */
+        .hero {
+            margin-bottom: 2.6rem;
+            padding-bottom: 1.8rem;
+            border-bottom: 1px solid #e0ddd6;
+        }
+
+        .hero-sub {
+            font-size: 0.8rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #857f74;
+            margin-bottom: 0.4rem;
+            font-weight: 400;
+        }
+
+        .hero h1 {
+            font-size: 2.6rem;
+            font-weight: 520;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            color: #2b3e32;
+        }
+
+        .hero p {
+            margin-top: 1rem;
+            color: #4a4a44;
+            font-size: 1.05rem;
+        }
+
+        /* === sections === */
+        section {
+            margin: 2.4rem 0;
+        }
+
+        section h2 {
+            font-size: 1.35rem;
+            font-weight: 500;
+            letter-spacing: -0.01em;
+            color: #1d2d25;
+            margin-bottom: 0.8rem;
+            border-left: 3px solid #567b69;
+            padding-left: 0.9rem;
+        }
+
+        section p {
+            margin-bottom: 1.15rem;
+            font-size: 1rem;
+            color: #302e2a;
+        }
+
+        .card-highlight {
+            background: #f3f1ec;
+            border-radius: 12px;
+            padding: 1.6rem 1.8rem;
+            margin: 1.8rem 0;
+        }
+
+        .card-highlight p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* === faq summary === */
+        .faq-item {
+            margin: 1.2rem 0;
+        }
+        .faq-item strong {
+            font-weight: 500;
+            color: #1d2d25;
+            display: block;
+            margin-bottom: 0.2rem;
+        }
+        .faq-item p {
+            margin-bottom: 0.3rem;
+            color: #3f3d38;
+        }
+
+        /* === footer link === */
+        .footer-note {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #ddd9d1;
+            text-align: center;
+            color: #5b564d;
+            font-size: 0.95rem;
+        }
+
+        .footer-note a {
+            font-weight: 450;
+        }
+
+        /* === responsive === */
+        @media (max-width: 500px) {
+            .page-wrap {
+                padding: 1.8rem 1.2rem 3rem;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .card-highlight {
+                padding: 1.2rem 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrap">
+        <!-- hero 横幅 -->
+        <header class="hero">
+            <div class="hero-sub">运动 · 生活 · 视野</div>
+            <h1>友博体育</h1>
+            <p>一个围绕运动生活方式的内容站点，不追逐热点，只专注真实可感的体育日常。从训练笔记到赛事观察，从装备体会到户外故事，这里记录着普通人的运动轨迹。</p>
+        </header>
+
+        <!-- 背景说明：可信与初衷 -->
+        <section>
+            <h2>为何会有这样一个站点</h2>
+            <p>
+                大多数体育媒体追逐流量和速报，而 <a href="https://sportsyoubo.com">友博体育</a> 选择了另一种节奏。它不是新闻网站，更像一本个人化的运动杂志——编辑自己也是一名爱好者，每个选题都经过亲身验证或深度查阅。没有夸张的标题，没有诱导分享的弹窗，每一篇文章都值得慢慢读完。
+            </p>
+            <p>
+                站点的内容更新并不频繁，但每一条都保留了来源与参考。对于装备测评、训练方法等容易产生误导的领域，编辑会明确标注使用场景与个人局限，把判断留给读者。这种克制反而建立起信任：你在这里读到的东西，至少是诚实的。
+            </p>
+        </section>
+
+        <!-- 三段自然介绍：特点、场景、视角 -->
+        <section>
+            <h2>内容上的三个特点</h2>
+            <div class="card-highlight">
+                <p><strong>1. 训练笔记讲实话</strong><br>
+                不鼓吹“七天练出腹肌”，而是分享真实的身体反应与调整细节。无论你是刚开始慢跑，还是尝试自重训练，都能找到适合自己的参考。</p>
+                <p><strong>2. 赛事记录有人味</strong><br>
+                编辑会以参与者视角写比赛体验——补给站好不好、赛道坡度如何、志愿者是否友善。这些细节往往比官方报道更有用。</p>
+                <p><strong>3. 装备内容不浮躁</strong><br>
+                没有“必买清单”式的推销，而是长期使用后的感受。一双跑鞋穿了一千公里后的磨损，一件冲锋衣在雨季的真实表现——这些才是真正值得读的测评。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>适合哪些人阅读</h2>
+            <p>
+                如果你已经厌倦了短视频里千篇一律的“燃脂挑战”，如果你想知道一条越野跑路线到底难在哪里，如果你只是想在周末运动前花五分钟读点有用的东西——那么 <a href="https://sportsyoubo.com">友博体育</a> 可能会成为你的书签栏常客。
+            </p>
+            <p>
+                当然，这里也适合完全不懂运动的新手。站点的语言风格偏向口语化，专业名词会附带简单解释。编辑始终相信：运动不是什么高深的事，每个人都可以从一点点开始。
+            </p>
+        </section>
+
+        <!-- 简单 FAQ 摘要 -->
+        <section>
+            <h2>一些常见疑问</h2>
+            <div class="faq-item">
+                <strong>内容多久更新一次？</strong>
+                <p>通常每周 1–2 篇，偶尔会因季节赛事增多。不追求日更，但保证每篇都有实质内容。</p>
+            </div>
+            <div class="faq-item">
+                <strong>有合作或广告吗？</strong>
+                <p>目前没有商业合作，装备类文章均为自费购买体验。如果未来出现赞助内容，一定会明确标注。</p>
+            </div>
+            <div class="faq-item">
+                <strong>可以转载或引用吗？</strong>
+                <p>欢迎以个人学习、分享为目的的非商业转载，但请注明原文链接并保持完整性。商业使用需提前联系。</p>
+            </div>
+        </section>
+
+        <!-- 页尾访问提示 -->
+        <div class="footer-note">
+            <p>若你认同这样的内容理念，不妨直接收藏 <a href="https://sportsyoubo.com">友博体育</a> —— 一个不追流量、只讲真话的运动角落。</p>
+        </div>
+    </div>
+</body>
+</html>
